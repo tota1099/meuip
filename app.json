@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meuip",
+    "name": "Meu IP",
     "slug": "meuip",
     "privacy": "public",
     "sdkVersion": "31.0.0",
@@ -10,7 +10,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/meuip_512.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,6 +24,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+        "package": "com.renanporto.meuip"
     }
   }
 }

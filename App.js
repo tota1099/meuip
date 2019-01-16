@@ -11,27 +11,43 @@ export default class App extends React.Component {
     this.findMyIp = this.findMyIp.bind(this)
 
     this.state = {
-      data: ''
+      data: '',
+      error: false
     }
   }
   async findMyIp() {
     this.setState({
-      data: 'descobrindo IP...'
+      data: 'descobrindo IP...',
+      error: false
     })
 
-    const ip = await fetch('http://httpbin.org/ip')
-    const data = await ip.json()
-    this.setState({
-      data: data.origin
-    })
+    fetch('http://httpbin.org/ip')
+      .then( async (response) => {
+        const ip = await response.json()
+        this.setState({
+          data: ip.origin,
+          error: false
+        })
+      })
+      .catch((error) => {
+        this.setState({
+          data: 'Verifique sua conexão com a internet!',
+          error: true
+        })
+      })
   }
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.body}>
           <Image source={logo} />
-          <Text style={styles.ip}>{this.state.data}</Text>
-          <Button title="Descobrir meu IP!" onPress={this.findMyIp} />
+          <Text style={ [styles.ip, this.state.error ? { color: "red" } : null  ]}>
+            {this.state.data}
+          </Text>
+          <Button 
+            title="Descobrir meu IP!" 
+            onPress={this.findMyIp} 
+            />
         </View>
         <View style={styles.footer}>
           <Text style={styles.made}>
