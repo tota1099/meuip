@@ -1,4 +1,4 @@
-# TripPlanner
+# Meu Ip
 
 Projeto do curso Hands-on React-Native do DevPleno.
 
@@ -9,13 +9,14 @@ Caso você tenha interesse em fazer o curso Hands-on React-Native, [clique aqui]
 ### Requisitos do Projeto
 
 - [Node](https://nodejs.org/en/download/) (Versão igual ou superior a 8.12.0)
-- [Figma](https://figma.com)
 - Android
   - É necessário ter um AVD (Android Virtual Device) para rodar o aplicativo no momento do desenvolvimento
-
 
 ### Rodar Projeto
 ```bash
 $ yarn install
 $ yarn start
 ```
+
+### Gerar APK
+``` $ expo build:android ``` or ``` $ expo build:ios ```
