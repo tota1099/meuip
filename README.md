@@ -8,7 +8,7 @@ https://play.google.com/store/apps/details?id=com.renanporto.meuip
 
 Página Inicial           |  Página caso no tenha acesso a internet
 :-------------------------:|:-------------------------:
-<img width="240" src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/apperror.png"/>  |  <img width="240" src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/app.png"/>
+<img width="240" src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/app.png"/>  |  <img width="240" src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/apperror.png"/>
 
 ### Curso Hands-on
 
