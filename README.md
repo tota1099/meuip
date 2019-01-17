@@ -1,6 +1,10 @@
 <p align="center"><img src="https://github.com/tota1099/meuip/blob/master/MeuIP-feature-graphic.png" width="500"></p>
 
-Projeto do curso Hands-on React-Native do DevPleno.
+### Google Play
+https://play.google.com/store/apps/details?id=com.renanporto.meuip
+
+
+### Aplicativo Preview
 
 Página Inicial           |  Página caso no tenha acesso a internet
 :-------------------------:|:-------------------------:
