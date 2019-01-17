@@ -1,4 +1,4 @@
-# Meu Ip
+<p align="center"><img src="https://github.com/tota1099/meuip/blob/master/MeuIP-feature-graphic.png" width="500"></p>
 
 Projeto do curso Hands-on React-Native do DevPleno.
 
