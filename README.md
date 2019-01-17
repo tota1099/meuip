@@ -2,6 +2,10 @@
 
 Projeto do curso Hands-on React-Native do DevPleno.
 
+Página Inicial           |  Página caso no tenha acesso a internet
+:-------------------------:|:-------------------------:
+<img width="240" src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/apperror.png"/>  |  <img width="240" src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/app.png"/>
+
 ### Curso Hands-on
 
 Caso você tenha interesse em fazer o curso Hands-on React-Native, [clique aqui](https://www.youtube.com/watch?v=e7yrBU9ZMgw&list=PLBNBxpMAbyhXKjErmzKPvxrjb2XYqiX0b).
