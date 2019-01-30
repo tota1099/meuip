@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/tota1099/meuip/blob/master/MeuIP-feature-graphic.png" width="500"></p>
+<p align="center"><img src="https://github.com/tota1099/meuip/blob/master/Google%20Play%20Store/MeuIP-feature-graphic.png" width="500"></p>
 
 ### Google Play
 https://play.google.com/store/apps/details?id=com.renanporto.meuip
