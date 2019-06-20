@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, Image } from 'react-native';
+import { StyleSheet, Text, View, Button, Image, Linking } from 'react-native';
 
 import logo from './assets/logo.png'
 
@@ -50,6 +50,7 @@ export default class App extends React.Component {
             />
         </View>
         <View style={styles.footer}>
+          <Text style={styles.privacy} onPress={() => Linking.openURL('https://tota1099.github.io/privacy_policy_apps/meuip_privacy_policy.html')}>Privacy Policy</Text>
           <Text style={styles.made}>
             Feito com ♥ por Renan Porto
           </Text>
@@ -79,6 +80,12 @@ const styles = StyleSheet.create({
   footer: {
     paddingTop: 10,
     paddingBottom: 10
+  },
+  privacy: {
+    color: 'white',
+    textAlign: 'center',
+    textDecorationLine: 'underline',
+    marginBottom: 2
   },
   made: {
     color: 'white',
